@@ -1,0 +1,8 @@
+kind: Pod
+metadata:
+  name: "mypod1"
+  
+spec:
+  containers:
+  - name: "myc1"
+    image: "httpd"
