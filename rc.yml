@@ -7,3 +7,11 @@ spec:
   selector: 
     dc: IN
   template:
+    metadata:
+      name: "mypod"
+      labels: 
+        dc: IN
+    spec:
+      containers:
+      - name: "myc2"
+        image: "httpd"
