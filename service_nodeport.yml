@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: mywebservice	
 spec:
-	type: NodePort
+  type: NodePort
 	selector: 
 		dc: IN
 	ports:
