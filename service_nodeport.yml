@@ -6,7 +6,7 @@ spec:
   type: NodePort
   selector: 
      dc: IN
-	ports:
+  ports:
 		- port: 80
 		  targetPort: 80
 		  nodePort: 30000
