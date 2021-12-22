@@ -6,7 +6,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-		dc: US
-	ports:
-	- port: 80
-	  targetPort: 80
+    dc: US
+  ports:
+  - port: 80
+    targetPort: 80
