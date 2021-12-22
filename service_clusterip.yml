@@ -9,4 +9,4 @@ spec:
 		dc: US
 	ports:
 	- port: 80
-		targetPort: 80
+	  targetPort: 80
