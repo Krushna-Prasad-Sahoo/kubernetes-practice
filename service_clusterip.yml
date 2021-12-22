@@ -4,8 +4,8 @@ metadata:
   name: privatewebservice
 
 spec:
-	type: ClusterIP
-	selector:
+  type: ClusterIP
+  selector:
 		dc: US
 	ports:
 	- port: 80
