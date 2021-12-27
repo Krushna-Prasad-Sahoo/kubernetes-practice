@@ -6,4 +6,7 @@ metadata:
 spec:
 	containers:
 	- name: "myc2"
-	  image: ""
+	  image: "vimal13/apache-webserver-php"
+	  env:
+	  - name: x
+	    value: "5"
