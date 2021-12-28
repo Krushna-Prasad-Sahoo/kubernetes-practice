@@ -4,3 +4,9 @@ metadata:
   name: "dbpod"
 
 spec:
+  containers:
+  - name: "mycdb"
+    image: "mysql"
+    env:
+    - name: MYSQL_ROOT_PASSOWRD
+      value: "redhat"
