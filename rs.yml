@@ -2,3 +2,12 @@ apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: myrs1
+  
+spec:
+  replicas: 2
+  selector:
+      matchLabels:
+        app: web
+      matchExpressions:
+      - {}
+      - {}
