@@ -11,3 +11,15 @@ spec:
       matchExpressions:
       - { key: dc, operator: In, values: [south] }
       - { key: region, operator: In, values: [IN] }
+  
+  template:
+    metadata:
+        name: "mypod"
+        labels: 
+          dc: south
+          region: IN
+          app: web
+    spec: 
+        containers:
+        - name: "myc1"
+          image: "vimal13/apache-webserver-php"
