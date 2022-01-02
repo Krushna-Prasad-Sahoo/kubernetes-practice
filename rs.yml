@@ -9,5 +9,5 @@ spec:
       matchLabels:
         app: web
       matchExpressions:
-      - {}
-      - {}
+      - { key: dc, operator: In, values: [south] }
+      - { key: region, operator: In, values: [IN] }
