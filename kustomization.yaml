@@ -6,5 +6,8 @@ secretGenerator:
   - password: redhat
   
 resources:
-  - mysql-development.yaml
+  - mysql-deployment.yaml
   - wordpress-deployment.yaml
+  
+
+# kubectl create -k .
